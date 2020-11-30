@@ -16,7 +16,7 @@ This loader generates a color for each image, you can use the color as a placeho
 npm install
 ```
 
-### Better optimized images
+#### For better optimized images
 
 On macOS with homebrew:
 
