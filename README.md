@@ -1,6 +1,8 @@
 # React Responsive Images Example
 
-[Live Demo](https://react-responsive-images-example.netlify.app)
+[**Live Demo**](https://react-responsive-images-example.netlify.app)
+
+&nbsp;
 
 This example uses three webpack loaders: [webpack-image-srcset-loader](https://github.com/Calvin-LL/webpack-image-srcset-loader), [webpack-image-resize-loader](https://github.com/Calvin-LL/webpack-image-resize-loader), and [webpack-image-placeholder-loader](https://github.com/Calvin-LL/webpack-image-placeholder-loader)
 
