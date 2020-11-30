@@ -45,6 +45,7 @@ module.exports = {
                   sharpOptions: {
                     jpeg: {
                       trellisQuantisation: true,
+                      overshootDeringing: true,
                       progressive: true,
                       optimiseScans: true,
                       quantisationTable: 8,
