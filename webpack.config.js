@@ -36,31 +36,11 @@ module.exports = {
               {
                 loader: "webpack-image-srcset-loader",
                 options: {
-                  sizes: ["500w", "1000w", "1500w", null],
+                  sizes: ["480w", "1024w", "1920w", "2560w", null],
                 },
               },
               {
                 loader: "webpack-image-resize-loader",
-                options: {
-                  sharpOptions: {
-                    jpeg: {
-                      trellisQuantisation: true,
-                      overshootDeringing: true,
-                      progressive: true,
-                      optimiseScans: true,
-                      quantisationTable: 8,
-                    },
-                    webp: {
-                      smartSubsample: true,
-                      reductionEffort: 6,
-                    },
-                    png: {
-                      progressive: true,
-                      adaptiveFiltering: true,
-                      palette: true,
-                    },
-                  },
-                },
               },
             ],
           },
