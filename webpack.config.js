@@ -15,7 +15,7 @@ module.exports = {
         use: "babel-loader",
       },
       {
-        test: /\.(png|jpe?g|svg|gif|webp|tiff?)$/i,
+        test: /\.(png|jpe?g|webp|tiff?)$/i,
         oneOf: [
           {
             // if the import url looks like "some.png?placeholder..."
@@ -39,6 +39,7 @@ module.exports = {
                   sizes: ["480w", "1024w", "1920w", "2560w", "original"],
                 },
               },
+              "file-loader",
               {
                 loader: "webpack-image-resize-loader",
               },
