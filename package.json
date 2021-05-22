@@ -22,6 +22,6 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-image-placeholder-loader": "^1.2.0",
     "webpack-image-resize-loader": "^4.0.0",
-    "webpack-image-srcset-loader": "^5.0.0"
+    "webpack-image-srcset-loader": "^5.0.2"
   }
 }
