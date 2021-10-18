@@ -58,7 +58,4 @@ module.exports = {
       template: path.resolve(__dirname, "./public/index.html"),
     }),
   ],
-  devServer: {
-    contentBase: path.join(__dirname, "build"),
-  },
 };
